@@ -1,5 +1,6 @@
 using System;
 using Xunit;
+using Fisher.Bookstore.Models;
 
 namespace Fisher.Bookstore.Tests
 {
@@ -9,7 +10,7 @@ namespace Fisher.Bookstore.Tests
         [Fact]
         public void AddBookPrice()
         {
-            var book = new Models.Book()
+            var book = new Book()
             {
             Id =1,
             Title = "My Test Book",
