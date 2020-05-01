@@ -25,8 +25,7 @@ namespace Fisher.Bookstore.Tests
 
 
 
-            //book.Price = 7.99;
-            //Assert.Equal(7.99, book.Price);
+            
 
         }
     }
